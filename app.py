@@ -127,7 +127,7 @@ def webhook():
 
 					try:
 						for i in range(len(numbers)):
-							strbuf = strbuf + "{0}X {1} {2}\n".format(numbers[i], sizes[i], foods[i])
+							strbuf = "{0}X {1} {2}\n".format(numbers[i], sizes[i], foods[i])
 							response = response + strbuf
 							order = response
 						if strbuf == "":
