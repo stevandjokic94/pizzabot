@@ -1,7 +1,7 @@
 from wit import Wit
 
-access_token = "NJS5DIBBEBVT5ATXN5LHPZZAF3ITXRZH"
-client = Wit(access_token = access_token)
+wit_access_token = "NJS5DIBBEBVT5ATXN5LHPZZAF3ITXRZH"
+client = Wit(access_token = wit_access_token)
 
 def wit_response(message_text):
 	resp = client.message(message_text)
